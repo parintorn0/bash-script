@@ -22,8 +22,6 @@ echo ""
 if [ -f /usr/share/applications/zen.desktop ]; then
     sudo rm /usr/share/applications/zen.desktop
     echo "Previous Desktop Entry Removed"
-    echo ""
-    echo ""
 fi
 echo "[Desktop Entry]
 Name=Zen Browser
@@ -49,7 +47,9 @@ Name=Open a New Private Window
 Exec=/opt/zen/zen-bin --private-window %u
 [Desktop Action profile-manager-window]
 Name=Open the Profile Manager
-Exec=/opt/zen/zen-bin --ProfileManager" >> /usr/share/applications/zen.desktop
+Exec=/opt/zen/zen-bin --ProfileManager" >> /tmp/zen.desktop
+sudo mv /tmp/zen.desktop /usr/share/applications/zen.desktop
+sudo rm /tmp/zen.desktop
 echo "Desktop Entry Added"
 echo ""
 echo ""
