@@ -9,7 +9,7 @@ if [ -d /opt/zen ]; then
     echo ""
 fi
 echo "Downloading..."
-curl -sL "https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.bz2" > /tmp/zen.linux-x86_64.tar.bz2
+curl -sL "https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.xz" > /tmp/zen.linux-x86_64.tar.bz2
 echo "Downloaded"
 echo ""
 echo ""
