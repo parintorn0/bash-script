@@ -37,8 +37,6 @@ Type=Application
 MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
 Categories=Network;WebBrowser;
 Actions=new-window;new-private-window;profile-manager-window;
-PrefersNonDefaultGPU=true
-X-KDE-RunOnDiscreteGpu=true
 [Desktop Action new-window]
 Name=Open a New Window
 Exec=/opt/zen/zen-bin --new-window %u
