@@ -1,5 +1,5 @@
 # My Linux Initial Setup Bash Script
-## My own Zen Browser Installer Bash Script
+## Browsers Installer Bash Script
 To install run this in bash shell
 
-`sh <(curl -L https://install-zen-browser.toparin.me)`
+`sh <(curl -L https://install-browser.toparin.me)`
